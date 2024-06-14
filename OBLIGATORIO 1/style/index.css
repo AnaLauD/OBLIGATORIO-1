@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #e7f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #76c7c0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #60b0a8;
+}
+
+#listaCombo .combo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#listaCombo .combo h3 {
+    margin-top: 0;
+    color: #76c7c0;
+}
+
+#listaCombo .combo p {
+    margin: 5px 0;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-group .btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-group .btn-danger {
+    background-color: #f28b82;
+    color: white;
+    border: none;
+}
+
+.btn-group .btn-danger:hover {
+    background-color: #e57373;
+}
+
+.btn-group .btn-primary {
+    background-color: #76c7c0;
+    color: white;
+    border: none;
+}
+
+.btn-group .btn-primary:hover {
+    background-color: #60b0a8;
+}
+
+#resumenCombos {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#resumenCombos h2 {
+    color: #76c7c0;
+}
+
+
+#filtroComida {
+    margin-bottom: 20px;
+}
+
+#filtroComida select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
